@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KusadasiMarket</title>
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./img/icon/bag.svg">
+</head>
+
+<body class=".bg-body">
+  <div class="container-md mt-4">
+
+    <!-- Header -->
+    <div class="row bg-light p-4 rounded-4 align-items-center">
+      <div class="col-md-auto">
+        <img src="./img/icon/bag.svg" class="rounded mx-auto d-block" width="100" height="100">
+      </div>
+      <div class="col-9">
+        <h1 class="fs-2 mb-0 text-start fw-bold">Welcome to <span class="text-danger">KusadasiMarket</span></h1>
+        <span class="text-start">Bizi tercih edin, ucuza yiyin.</span>
+      </div>
+    </div>
+
+    <!--Sponsor -->
+    <div class="row mt-4">
+      <div class="col d-none d-sm-block">
+        <div class="card bg-warning border border-0"
+          style="background: url('https://freshcart.codescandy.com/assets/images/banner/ad-banner-3.jpg') no-repeat; background-size: cover;">
+          <div class="card-body mt-4 mb-5">
+            <h3 class="card-title fw-bold">Thailand Ice Cream</h3>
+            <p class="card-text text-wrap" style="width: 15rem;">It's not delicious, but you might want to try it.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-none d-sm-block">
+        <div class="card bg-warning border border-0"
+          style="background: url('https://freshcart.codescandy.com/assets/images/banner/ad-banner-1.jpg') no-repeat; background-size: cover;">
+          <div class="card-body mt-4 mb-5">
+            <h3 class="card-title fw-bold">Take Shower</h3>
+            <p class="card-text text-wrap" style="width: 15rem;">Maybe you can want to "çimmek".</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block">
+        <div class="card bg-warning border border-0"
+          style="background: url('https://freshcart.codescandy.com/assets/images/banner/ad-banner-2.jpg') no-repeat; background-size: cover;">
+          <div class="card-body mt-4 mb-5">
+            <h3 class="card-title fw-bold">My Aunt's Fruits</h3>
+            <p class="card-text text-wrap" style="width: 15rem;">An element from the garden, fresh, and "kurtlu".</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="row mt-4 mb-3 justify-content-between">
+      <div class="col align-self-end">
+        <h4>Shop</h4>
+        <p class="text-muted">Your choices, your market!</p>
+      </div>
+      <div class="col text-end">
+        <div class="btn-group">
+          <button id="btnCart" type="button" class="btn btn-outline-success position-relative" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+            <img src="./img/icon/findik_cart.png" style="width:75px;" class="float-start" alt="findik" title="fındık (cart)">
+          </button>
+          <div id="divCartList" class="dropdown-menu dropdown-menu-end p-1" style="min-width: 25rem;"></div>
+      </div>
+      </div>
+    </div>
+    <div id="products" class="row row-cols-3 row-cols-lg-5 g-2">
+      
+      <!-- loading placeholders -->
+      <div class="card p-0" aria-hidden="true">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Loading</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+      <div class="card p-0" aria-hidden="true">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Loading</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+      <div class="card p-0" aria-hidden="true">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Loading</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+      <div class="card p-0" aria-hidden="true">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Loading</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+      <div class="card p-0" aria-hidden="true">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Loading</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <!--Footer -->
+  <div class="container-fluid bg-light border-top border-1 mt-4">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <h5>Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Shop by Category</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Meyve & Sebze</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Icecekler</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Snacks</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cleaning</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">PET</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Our Branchs</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ilker Market</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Zottero</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>About this project</h5>
+              <p>Made with <span class="text-danger fs-4">♥</span> by @emrecoban. It's fully responsive, and has pure JS.</p>
+              <p>
+                <a href="https://github.com/emrecoban/kusadasi-market"><img src="./img/icon/github.svg" height="30" alt="github" title="GitHub"></a>
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 KusadasiMarket, Inc. All rights reserved.</p>
+          <p class="p-0 m-0">
+            <img src="./img/icon/css.svg" height="30" alt="css" title="CSS">
+            <img src="./img/icon/html.svg" height="30" alt="html" title="HTML">
+            <img src="./img/icon/fakestore.png" height="28" alt="fakestoreapi" title="FakeStoreAPI">
+            <img src="./img/icon/bootstrap.svg" height="28" alt="bootstrap" title="Bootstrap">
+            <img src="./img/icon/js.svg" height="30" alt="javascript" title="JavaScript">
+          </p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="./worker.js"></script>
+</body>
+
+</html>
