@@ -1,4 +1,4 @@
 # kusadasi-market
 For e-commerce cart system sample with pure JavaScript.
 ## Preview
-[Preview](https://raw.githack.com/emrecoban/kusadasi-market/85227570fb87d043789164cdfdc1974e37af09bd/index.html)
+[Preview](https://raw.githack.com/emrecoban/kusadasi-market/b5758642f092193cbaad9d2364a8f5e25a3fb51d/index.html)
