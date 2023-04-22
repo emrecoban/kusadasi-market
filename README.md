@@ -1,6 +1,7 @@
 <h1 align="center"><img src="img/icon/bag.svg" height="80" align="center" /><br />Kuşadası Market</h1>
 
 Introducing a dynamic web page built with Javascript, featuring advanced functionalities that enhance your online shopping experience. With the ability to fetch products from a remote server, you can browse through a wide range of options conveniently. The cart feature allows you to add, delete, and update the number of products in your cart with ease. Keep track of your purchases effortlessly with the list product feature. Enjoy a seamless shopping experience, all with the power of Javascript.
+
 [Preview](https://raw.githack.com/emrecoban/kusadasi-market/1d64e3383666333db1c00e500765c3d7a0fe030b/index.html)
 
 ## Features
